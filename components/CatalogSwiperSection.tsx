@@ -44,18 +44,19 @@ export default function CatalogSwiperSection() {
           variants={tagVariants}
           className="grid grid-cols-2 text-gray-500 gap-x-8">
           <p>
-            Tasarım ve dekor tutkumuzla bir koleksiyon oluşturduk rahat bir
-            ortam yaratmanıza yardımcı olacak mobilya ve aksesuarlardan oluşan
-            şık bir ev. Tasarım ve dekora olan tutkumuzla size yardımcı olacak
-            bir mobilya ve aksesuar koleksiyonu oluşturduk rahat ve şık bir ev
-            yaratın.
+            Tasarım ve dekorasyon tutkumuzla, rahat bir ortam yaratmanıza
+            yardımcı olacak mobilya ve aksesuarlardan oluşan şık bir ev
+            koleksiyonu oluşturduk. Tasarım ve dekora olan tutkumuzla size
+            yardımcı olacak, rahat ve şık bir ev yaratmanız için tasarlanmış bir
+            mobilya ve aksesuar koleksiyonu sunduk.
           </p>
           <p>
-            Tasarım ve dekor tutkumuzla bir koleksiyon oluşturduk rahat bir
-            ortam yaratmanıza yardımcı olacak mobilya ve aksesuarlardan oluşan
-            şık bir ev. Tasarım ve dekora olan tutkumuzla size yardımcı olacak
-            bir mobilya ve aksesuar koleksiyonu oluşturduk rahat ve şık bir ev
-            yaratın.
+            Memory updated Tasarım ve dekorasyon tutkusuyla hazırladığımız
+            koleksiyon, rahat bir ortam yaratmanıza yardımcı olacak şık mobilya
+            ve aksesuarlardan oluşuyor. Ev tasarımı ve dekorasyonuna olan
+            tutkumuzla, sizin için özel olarak tasarlanmış mobilya ve aksesuar
+            koleksiyonumuzla rahat ve şık bir yaşam alanı oluşturmanıza yardımcı
+            oluyoruz.
           </p>
         </motion.div>
         <Link href="/gallery">

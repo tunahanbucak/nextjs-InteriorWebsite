@@ -34,28 +34,26 @@ export default function AboutComponent() {
             whileInView={"onscreen"}
             variants={desVariants}
             className="px-12 tracking-wider uppercase text-gray-400 mt-3">
-            Dünya Ödülü
+            "World Award" olarak İfade edİlebİlİr. Bu, uluslararası alanda
+            tanınan ve prestİjlİ olan bİr ödülü temsİl eder. İç tasarım
+            şİrketİmİzİn çeşİtlİ ülkelerden aldığı bu tür bİr ödül, fİrmamızın
+            başarı ve kalİtesİnİ vurgular.
           </motion.p>
           <motion.p
             initial="offscreen"
             whileInView={"onscreen"}
             variants={tagVariants}
             className="px-12 pb-4 mt-4">
-            Bu, iç tasarım alanında faaliyet gösteren bir şirkettir. Biz eviniz
-            için en iyi iç tasarımı sağlayın. Bize güvenildi birçok kişi
-            evlerini tasarlamak için. Biz de çok aldık çalışmalarımız için
-            çeşitli ülkelerden ödüller.
+            İç tasarım alanında faaliyet gösteren bir şirketiz. Evler için en
+            iyi iç tasarımı sağlıyoruz ve birçok kişi bize evlerini tasarlamak
+            için güveniyor. Ayrıca, çalışmalarımız için çeşitli ülkelerden
+            ödüller aldık.
           </motion.p>
           <motion.p
             initial="offscreen"
             whileInView={"onscreen"}
             variants={tagVariants}
-            className="px-12 pb-4 ">
-            Bu, iç tasarım alanında faaliyet gösteren bir şirkettir. Biz eviniz
-            için en iyi iç tasarımı sağlayın. Bize güvenildi birçok kişi
-            evlerini tasarlamak için. Biz de çok aldık çalışmalarımız için
-            çeşitli ülkelerden ödüller.
-          </motion.p>
+            className="px-12 pb-4 "></motion.p>
         </div>
       </div>
     </div>

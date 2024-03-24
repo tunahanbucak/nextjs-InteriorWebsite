@@ -4,7 +4,6 @@ import React from "react";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { NavbarProps } from "@/types";
 
 const links = [
   { path: "/", name: "Anasayfa" },
@@ -13,6 +12,12 @@ const links = [
   { path: "/projects", name: "Projeler" },
   { path: "/contact", name: "İletişim" },
 ];
+
+interface NavbarProps {
+  containerStyles: string;
+  linkStyles: string;
+  underlineStyles: string;
+}
 
 export default function Navbar({
   containerStyles,

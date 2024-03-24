@@ -30,10 +30,11 @@ export default function HeroSection() {
           whileInView={"onscreen"}
           variants={tagVariants}
           className="pb-6 text-muted-foreground xl:pb-10">
-          Görünümünüzü en iyi iç tasarımla değiştirin. En iyisini sağlıyoruz
-          eviniz için iç tasarım. Her anı en iyisiyle güzelleştirin iç dizayn.
-          Görünümünüzü en iyi iç tasarımla değiştirin. Biz eviniz için en iyi iç
-          tasarımı sağlayın. Her anı yap en iyi iç tasarıma sahip güzel
+          Görünümünüzü en iyi iç tasarımla değiştirin. Ev için en iyisini
+          sağlıyoruz iç tasarım konusunda. Her anı en iyisiyle güzelleştirin iç
+          dizayn ile. Görünümünüzü en iyi iç tasarımla değiştirin. Eviniz için
+          en iyi iç tasarımı sağlıyoruz, böylece her anı en iyi iç tasarıma
+          sahip güzel bir şekilde yaşayabilirsiniz.
         </motion.p>
         <motion.div
           initial="offscreen"

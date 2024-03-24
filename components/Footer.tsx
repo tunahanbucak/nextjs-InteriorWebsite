@@ -31,7 +31,6 @@ export default function Footer() {
               </Link>
             </div>
           </motion.div>
-
           <motion.div
             initial="offscreen"
             whileInView={"onscreen"}

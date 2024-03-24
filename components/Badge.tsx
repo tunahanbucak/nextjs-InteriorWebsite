@@ -1,7 +1,12 @@
 "use client";
 
-import { BadgeProps } from "@/types";
 import CountUp from "react-countup";
+
+interface BadgeProps {
+  containerStyles?: string;
+  endCountNum: number;
+  endCountText: string;
+}
 
 export default function Badge({
   containerStyles,
