@@ -1,10 +1,20 @@
+import AboutComponent from "@/components/AboutComponent";
+import CatalogSwiperSection from "@/components/CatalogSwiperSection";
+import CatalogueSection from "@/components/CatalogueSection";
+import CompanySection from "@/components/CompanySection";
+import ContactSection from "@/components/ContactSection";
+import HeroSection from "@/components/HeroSection";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
-      Interior design
-      <div>tunahan bucak</div>
-    </main>
+    <>
+      <HeroSection />
+      <CompanySection />
+      <AboutComponent />
+      <CatalogueSection />
+      <CatalogSwiperSection />
+      <ContactSection />
+    </>
   );
 }
