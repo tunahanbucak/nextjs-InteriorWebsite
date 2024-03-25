@@ -16,7 +16,7 @@ export default function HeroSection() {
           whileInView={"onscreen"}
           variants={titleVariants}
           className="tracking-widest uppercase">
-          En İyİ İç Mekan İçİn teklİf
+          En İyİ İç Mekan Dİzayn
         </motion.p>
         <motion.h1
           initial="offscreen"
@@ -30,11 +30,10 @@ export default function HeroSection() {
           whileInView={"onscreen"}
           variants={tagVariants}
           className="pb-6 text-muted-foreground xl:pb-10">
-          Görünümünüzü en iyi iç tasarımla değiştirin. Ev için en iyisini
-          sağlıyoruz iç tasarım konusunda. Her anı en iyisiyle güzelleştirin iç
-          dizayn ile. Görünümünüzü en iyi iç tasarımla değiştirin. Eviniz için
-          en iyi iç tasarımı sağlıyoruz, böylece her anı en iyi iç tasarıma
-          sahip güzel bir şekilde yaşayabilirsiniz.
+          Görünümünüzü en iyi iç tasarımla değiştirin.İç tasarım konusunda ev
+          için en iyisini sağlıyoruz . Her anı en iyisiyle güzelleştirin iç
+          dizayn ile. Eviniz için en iyi iç tasarımı sağlıyoruz, böylece her anı
+          en iyi iç tasarıma sahip güzel bir şekilde yaşayabilirsiniz.
         </motion.p>
         <motion.div
           initial="offscreen"

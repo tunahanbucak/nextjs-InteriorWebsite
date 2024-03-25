@@ -8,7 +8,7 @@ import { titleVariants, desVariants, tagVariants } from "@/utils/animation";
 const posts = [
   {
     id: 1,
-    title: "Dönüşüm oranınızı artırın",
+    title: "Tek kelimeyle muazzam",
     href: "#",
     description:
       "Tonlarca tasarım ve düzen seçeneği ile harika bir tema ve müşteri hizmetleri tek kelimeyle olağanüstü. Hemen yanıt verirler ve ne kadar küçük olursa olsun herhangi bir rahatsızlığı çözerler.",
@@ -17,39 +17,36 @@ const posts = [
     category: { title: "4.7", href: "#" },
     author: {
       name: "Ebru",
-      role: "Kurucu Ortak / CTO",
       href: "#",
       imageUrl: "/image/profile1.jpg",
     },
   },
   {
     id: 2,
-    title: "Dönüşüm oranınızı artırın",
+    title: "Muhteşem",
     href: "#",
     description:
-      "Tonlarca tasarım ve düzen seçeneği ile harika bir tema ve müşteri hizmetleri tek kelimeyle olağanüstü. Hemen yanıt verirler ve ne kadar küçük olursa olsun herhangi bir rahatsızlığı çözerler.",
+      "İç mekan dekorasyon ürünleriniz gerçekten beklentilerimi aştı. Hem modern hem de kullanışlılar. Artık evimde daha keyifli vakit geçiriyorum.",
     date: "24 Mart 2024",
     datetime: "24-03-2024",
     category: { title: "4.9", href: "#" },
     author: {
       name: "Zeynep",
-      role: "Kurucu Ortak / CEO",
       href: "#",
       imageUrl: "/image/profile2.jpg",
     },
   },
   {
     id: 3,
-    title: "Dönüşüm oranınızı artırın",
+    title: "Fena sayılmaz",
     href: "#",
     description:
-      "Tonlarca tasarım ve düzen seçeneği ile harika bir tema ve müşteri hizmetleri tek kelimeyle olağanüstü. Hemen yanıt verirler ve ne kadar küçük olursa olsun herhangi bir rahatsızlığı çözerler.",
+      "Ürünlerin tasarımı beni çok etkiledi, özellikle minimalizm konusundaki çözümleri harika. Hem şık hem de kullanışlı ürünler bulmak benim için çok önemliydi ve burada aradığımı buldum.",
     date: "24 Mart 2024",
     datetime: "24-03-2024",
     category: { title: "4.2", href: "#" },
     author: {
       name: "Fatih",
-      role: "Kurucu Ortak / CTO",
       href: "#",
       imageUrl: "/image/profile3.jpg",
     },
@@ -122,7 +119,6 @@ export default function ContactSection() {
                       <span>{post.author.name}</span>
                     </a>
                   </p>
-                  <p className="text-muted-foreground">{post.author.role}</p>
                 </div>
               </div>
             </article>

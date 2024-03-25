@@ -17,7 +17,7 @@ export default function CompanySection() {
             className="mx-auto flex max-w-xs flex-col gap-y-4">
             <dt className="text-white leading-7">Her 24 saatte bir işlem</dt>
             <dd className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">
-              <Badge endCountNum={44} endCountText="milyon" />
+              <Badge endCountNum={35} endCountText="bin" />
             </dd>
           </motion.div>
           <motion.div
@@ -27,7 +27,7 @@ export default function CompanySection() {
             className="mx-auto flex max-w-xs flex-col gap-y-4">
             <dt className="text-white leading-7">Yürütülen Varlıklar</dt>
             <dd className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">
-              <Badge endCountNum={119} endCountText="trilyon" />
+              <Badge endCountNum={119} endCountText="bin" />
             </dd>
           </motion.div>
           <motion.div

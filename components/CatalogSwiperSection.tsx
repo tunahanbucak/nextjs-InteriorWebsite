@@ -44,13 +44,6 @@ export default function CatalogSwiperSection() {
           variants={tagVariants}
           className="grid grid-cols-2 text-gray-500 gap-x-8">
           <p>
-            Tasarım ve dekorasyon tutkumuzla, rahat bir ortam yaratmanıza
-            yardımcı olacak mobilya ve aksesuarlardan oluşan şık bir ev
-            koleksiyonu oluşturduk. Tasarım ve dekora olan tutkumuzla size
-            yardımcı olacak, rahat ve şık bir ev yaratmanız için tasarlanmış bir
-            mobilya ve aksesuar koleksiyonu sunduk.
-          </p>
-          <p>
             Memory updated Tasarım ve dekorasyon tutkusuyla hazırladığımız
             koleksiyon, rahat bir ortam yaratmanıza yardımcı olacak şık mobilya
             ve aksesuarlardan oluşuyor. Ev tasarımı ve dekorasyonuna olan
@@ -58,14 +51,20 @@ export default function CatalogSwiperSection() {
             koleksiyonumuzla rahat ve şık bir yaşam alanı oluşturmanıza yardımcı
             oluyoruz.
           </p>
+          <p>
+            Tasarım ve dekorasyon tutkumuzla, rahat bir ortam yaratmanıza
+            yardımcı olacak mobilya ve aksesuarlardan oluşan şık bir ev
+            koleksiyonu oluşturduk. Tasarım ve dekora olan tutkumuzla size
+            yardımcı olacak, rahat ve şık bir ev yaratmanız için tasarlanmış bir
+            mobilya ve aksesuar koleksiyonu sunduk.
+          </p>
         </motion.div>
         <Link href="/gallery">
           <Button className="inline-flex items-center px-8 py-3 mt-4 text-white rounded-full shadow-lg hover:bg-gray-800 hover:ring-2 hover:ring-gray-700 ring-offset-2">
-            Galeriyi Görüntüle <TbArrowUpRight className="w-5 h-5 ml-2" />{" "}
+            Galeriyi Görüntüle <TbArrowUpRight className="w-5 h-5 ml-2" />
           </Button>
         </Link>
       </div>
-
       <Swiper
         slidesPerView={1}
         breakpoints={{
