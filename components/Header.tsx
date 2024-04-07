@@ -32,8 +32,9 @@ export default function Header() {
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           <Link href="/">
-            <Image src="/logo.png" alt="logo" width={160} height={55} />
+            <Image src="/Logo.webp" alt="logo" width={60} height={55} />
           </Link>
+
           <div className="flex items-center gap-x-6">
             <Navbar
               containerStyles="hidden xl:flex gap-x-8 items-center "
@@ -41,6 +42,13 @@ export default function Header() {
               underlineStyles="absolute left-0 top-full h-[2px]  bg-primary w-full"
             />
             <ThemeToggler />
+            <div className=" flex items-center justify-end">
+              <button
+                type="button"
+                className="text-black font-semibold text-xl bg-gray-600 items-center justify-center ">
+                Dil secenekleri
+              </button>
+            </div>
             <div className="xl:hidden">
               <Mobilenagivation />
             </div>

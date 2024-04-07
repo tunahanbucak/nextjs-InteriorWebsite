@@ -4,6 +4,7 @@ import React from "react";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { useTranslation } from "next-i18next";
 
 const links = [
   { path: "/", name: "Anasayfa" },
@@ -25,6 +26,9 @@ export default function Navbar({
   underlineStyles,
 }: NavbarProps) {
   const path = usePathname();
+
+  const { t } = useTranslation();
+
   return (
     <nav className={`${containerStyles}`}>
       {links.map((link, index) => {
