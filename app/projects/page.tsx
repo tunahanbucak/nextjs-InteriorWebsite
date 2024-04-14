@@ -26,6 +26,7 @@ const projects = [
     link: "",
   },
 ];
+
 export default function page() {
   return (
     <div>

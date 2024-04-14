@@ -9,6 +9,7 @@ import { titleVariants, desVariants, tagVariants } from "@/utils/animation";
 
 export default function page() {
   const ref = useRef(null);
+
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start end", "end end"],

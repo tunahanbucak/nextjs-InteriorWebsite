@@ -10,6 +10,7 @@ import { usePathname } from "next/navigation";
 
 export default function Header() {
   const [header, setHeader] = useState(false);
+
   const pathname = usePathname();
 
   useEffect(() => {
@@ -34,7 +35,6 @@ export default function Header() {
           <Link href="/">
             <Image src="/Logo.webp" alt="logo" width={60} height={55} />
           </Link>
-
           <div className="flex items-center gap-x-6">
             <Navbar
               containerStyles="hidden xl:flex gap-x-8 items-center "
@@ -42,13 +42,13 @@ export default function Header() {
               underlineStyles="absolute left-0 top-full h-[2px]  bg-primary w-full"
             />
             <ThemeToggler />
-            <div className=" flex items-center justify-end">
+            {/* <div className=" flex items-center justify-end">
               <button
                 type="button"
-                className="text-black font-semibold text-xl bg-gray-600 items-center justify-center ">
+                className="text-black font-semibold text-2xl  items-center justify-center ">
                 Dil secenekleri
               </button>
-            </div>
+            </div> */}
             <div className="xl:hidden">
               <Mobilenagivation />
             </div>

@@ -76,11 +76,11 @@ export default function Footer() {
           initial="offscreen"
           whileInView={"onscreen"}
           variants={titleVariants}>
-          <p className="pb-4 text-xl font-semibold">Güncel Kalın</p>
+          <p className="pb-4 text-xl font-semibold">İLETİŞİME GEÇİN</p>
           <div className="relative lg:max-w-sm">
-            <Input type="name" id="first name" placeholder="e-posta adresi" />
+            <Input type="name" id="first name" placeholder="E-posta adresi" />
             <button className="absolute bg-black h-10 px-3 text-sm top-2 right-2 text-white rounded-full hover:border-2 hover:border-black hover:bg-white hover:text-black dark:bg-primary">
-              Abone ol
+              Abone Ol
             </button>
           </div>
         </motion.div>
@@ -91,7 +91,7 @@ export default function Footer() {
         variants={desVariants}
         className="py-10 bg-black dark:bg-primary">
         <div className="container text-white text-center lg:justify-between lg:flex">
-          <div className="pb-4 lg:pb-0">
+          <div className="pb-4 lg:pb-0 mt-4 ">
             <p> &copy; 2024 Tüm hakları saklıdır </p>
           </div>
           <Link className="p-4 hover:underline" href="/">
@@ -99,6 +99,12 @@ export default function Footer() {
           </Link>
           <Link className="p-4 hover:underline" href="/">
             Şartlar
+          </Link>
+          <Link className="p-4 hover:underline" href="/">
+            Destek
+          </Link>
+          <Link className="p-4 hover:underline" href="/">
+            SSS
           </Link>
         </div>
       </motion.div>

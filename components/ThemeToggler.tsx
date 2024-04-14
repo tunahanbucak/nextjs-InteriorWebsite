@@ -9,7 +9,7 @@ export default function ThemeToggler() {
     <div>
       <Button onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
         <Sun className="h-[1.2rem] w-[1.2rem] scale-100 rotate-0 transition-all dark:rotate-90 dark:scale-0" />
-        <Moon className=" scale-0 absolute h-[1.2rem] w-[1.2rem] rotate-90 transition-all dark:rotate-0 dark:scale-100" />
+        <Moon className="scale-0 absolute h-[1.2rem] w-[1.2rem] rotate-90 transition-all dark:rotate-0 dark:scale-100" />
       </Button>
     </div>
   );
